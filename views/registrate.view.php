@@ -26,7 +26,7 @@
 				<i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
 			</div>
 
-			<?php if(empty($errores)): ?>
+			<?php if(!empty($errores)): ?>
 				<div class="error">
 					<ul>
 						<?php echo $errores; ?>
